@@ -1,5 +1,44 @@
+/* :root { */
+/* --thistle: #dec9e9ff; */
+/* --thistle-2: #dac3e8ff; */
+/* --wisteria: #d2b7e5ff; */
+/* --wisteria-2: #c19ee0ff; */
+/* --bright-lavender: #b185dbff; */
+/* --lavender-purple: #a06cd5ff; */
+/* --lavender-purple-2: #9163cbff; */
+/* --deep-lilac: #815ac0ff; */
+/* --deep-lilac-2: #7251b5ff; */
+/* --deep-lilac-3: #6247aaff; */
+/* Color Palette: Amethyst & Bronze */
+/* } */
+:root {
+  --deep-purple: #4a148c;
+  --rich-bronze: #cd7f32;
+  --lavender-mist: #e1bee7;
+  --warm-cream: #faf3e0;
+  --charcoal-black: #212121;
+  --medium-slate: #757575;
+  --gold-dust: #f9a825;
+  --off-white: #f5f5f5;
+}
+
 body {
-  width: 100vw;
-  height: 100vh;
-  background-color: #45006a;
+  margin: 0;
+  padding: 0;
+  background-color: var(--charcoal-black);
+}
+
+h1,
+h2 {
+  color: var(--off-white);
+  text-shadow: var(--deep-purple) 2px 2px;
+}
+
+.geist-pixel {
+  font-family: "Geist Pixel", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
 }
